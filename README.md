@@ -4,7 +4,7 @@
 YOLO11s model is trained on PCB (printed circuit board) defect dataset from Peking University Open Lab on Human Robot Interaction: https://robotics.pkusz.edu.cn/resources/datasetENG/
 
 
-#Pre-Training
+# Pre-Training
 
 ##pcb_defect_data.ipynb:
 1. Label preprocessing - parses XML files for annotations, converts bounding boxes to YOLO format, creates yaml file for YOLO
@@ -12,7 +12,7 @@ YOLO11s model is trained on PCB (printed circuit board) defect dataset from Peki
 3. Dataset preparation - split into train, validation, and test datasets
 
 
-#Training
+# Training
 
 pcb_defects.training.ipynb:
 
@@ -28,9 +28,9 @@ Example predictions when testing:
 After training, the model can detect and classify defects on a PCB, giving its relative confidence in each prediction, as seen above.
 
 
-#Performance metrics analysis: 
+# Performance metrics analysis: 
 
-##Confusion Matrix:
+## Confusion Matrix:
 
 
 <img width="3000" height="2250" alt="image" src="https://github.com/user-attachments/assets/2acf5d3e-1c93-4077-9e4d-ace504827e2f" />
@@ -39,7 +39,7 @@ After training, the model can detect and classify defects on a PCB, giving its r
 Horizontally, we can calculate the precision for each class (true positives / (true positives + false positives) ). For the predictions of each class, the proportion of incorrect predictions (false positives) is negligible; therefore, my model has good precision.
 
 
-##Normalized Confusion Matrix:
+## Normalized Confusion Matrix:
 
 
 
