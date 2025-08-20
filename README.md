@@ -30,6 +30,7 @@ Example predictions when testing:
 
 
 After training, the model can detect and classify defects on a PCB, giving its relative confidence in each prediction, as seen above.
+For more images, see pcb_defects.training.ipynb
 
 
 # Performance metrics analysis
