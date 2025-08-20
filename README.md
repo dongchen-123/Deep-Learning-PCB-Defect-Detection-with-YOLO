@@ -27,6 +27,8 @@ Confusion Matrix:
 <img width="3000" height="2250" alt="image" src="https://github.com/user-attachments/assets/2acf5d3e-1c93-4077-9e4d-ace504827e2f" />
 
 
+Horizontally, we can calculate the precision for each class (true positives / (true positives + false positives) ). For the predictions of each class, the proportion of incorrect predictions (false positives) is negligible; therefore, my model has good precision.
+
 
 Normalized Confusion Matrix:
 
