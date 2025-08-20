@@ -6,7 +6,7 @@ YOLO11s model is trained on PCB (printed circuit board) defect dataset from Peki
 
 # Pre-Training
 
-##pcb_defect_data.ipynb:
+## pcb_defect_data.ipynb:
 1. Label preprocessing - parses XML files for annotations, converts bounding boxes to YOLO format, creates yaml file for YOLO
 2. Image preprocessing - resize to an uniform size of 640 x 640
 3. Dataset preparation - split into train, validation, and test datasets
@@ -14,7 +14,7 @@ YOLO11s model is trained on PCB (printed circuit board) defect dataset from Peki
 
 # Training
 
-pcb_defects.training.ipynb:
+## pcb_defects.training.ipynb:
 
  The original dataset is processed then split into YOLO_dataset (includes train and val) and YOLO_test_dataset. As my Intel ARC GPU is not suitable for training YOLO models, I zipped the datasets and uploaded them onto Google Colab for training and testing using NVIDIA Tesla T4 GPU. I used the YOLO11s model rather than the more common YOLO11n, as it is more precise at recognizing relatively small details in an image.The model was trained for 200 epochs and the best version was then tested with the test dataset.
  
