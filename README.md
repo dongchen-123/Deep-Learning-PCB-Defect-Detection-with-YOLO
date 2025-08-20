@@ -6,8 +6,6 @@ YOLO11s model is trained on PCB (printed circuit board) defect dataset from Peki
 
 # Pre-Training
 
-## Dataset
-
 The original dataset from Peking University contains 693 images with labels in the form of bounding boxes and classifications. The images were not of uniform sizes, and the annotations were in XML files. These needed to be addressed for the dataset to be suitable for training a YOLO model.
 
 ## pcb_defect_data.ipynb
