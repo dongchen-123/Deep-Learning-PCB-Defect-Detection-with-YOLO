@@ -5,6 +5,7 @@ YOLO11s model is trained on PCB (printed circuit board) defect dataset from Peki
 
 
 Pre-Training:
+
 pcb_defect_data.ipynb:
 1. Label preprocessing - parses XML files for annotations, converts bounding boxes to YOLO format, creates yaml file for YOLO
 2. Image preprocessing - resize to an uniform size of 640 x 640
