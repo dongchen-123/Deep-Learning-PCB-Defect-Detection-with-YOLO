@@ -14,4 +14,15 @@ Example detection image:
 
 
 <img width="640" height="640" alt="image" src="https://github.com/user-attachments/assets/69907352-18ee-43b5-a92d-0ad47ebea135" />
+
+
 After training, the model can detect and classify defects on a PCB, giving its relative confidence in each prediction, as seen above.
+
+
+Performance metrics analysis: 
+
+Confusion Matrix:
+
+
+<img width="3000" height="2250" alt="image" src="https://github.com/user-attachments/assets/dd2bf740-3360-4a6f-b1cf-ff1f58e36c4d" />
+
